@@ -1,18 +1,8 @@
 .App {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
   grid-template-areas:  'search search'
                         'results playlist';
   font-family: Arial, sans-serif;
-}
-
-.search{
-  grid-area: 'search';
-}
-
-.results{
-  grid-area: 'results'
-}
-
-.playlist{
-  grid-area: 'playlist'
 }
